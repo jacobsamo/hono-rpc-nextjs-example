@@ -7,6 +7,11 @@
       }
     ]
   },
+  "references": [
+    {
+      "path": "../api/tsconfig.json"
+    }
+  ],
   "include": [
     "**/*.ts",
     "**/*.tsx",
@@ -14,7 +19,5 @@
     "next.config.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
